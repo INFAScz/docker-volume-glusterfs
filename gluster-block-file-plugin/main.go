@@ -98,7 +98,7 @@ func NewDriver(root string) (*Driver, error) {
 }
 
 func main() {
-	d, err := NewDriver("/mnt")
+	d, err := NewDriver("/data")
 	if err != nil {
 		logrus.Fatal(err)
 	}
