@@ -38,7 +38,7 @@
     "network": {
         "type": "host"
     },
-    "propagatedMount": "/mnt",
+    "propagatedMount": "/data",
     "interface": {
         "types": [
             "docker.volumedriver/1.0"
